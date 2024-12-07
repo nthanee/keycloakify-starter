@@ -1,4 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fb7393d-72bf-4aeb-a7fa-27acaaf38bd4" name="Changes" comment="Update.">
+      <change afterPath="$PROJECT_DIR$/src/account/KcContext.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/account/KcPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/email-test.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/email-update-confirmation.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/email-verification-with-code.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/email-verification.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/event-login_error.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/event-remove_totp.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/event-update_password.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/event-update_totp.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/executeActions.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/identity-provider-link.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/org-invite.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/password-reset.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/html/template.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_ar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_ca.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_cs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_da.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_de.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_el.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_fa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_fi.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_fr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_hu.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_it.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_ja.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_ka.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_lt.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_nl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_no.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_pl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_pt.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_pt_BR.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_ru.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_sk.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_th.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_tr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_uk.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/messages/messages_zh_TW.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/email-test.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/email-update-confirmation.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/email-verification-with-code.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/email-verification.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/event-login_error.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/event-remove_totp.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/event-update_password.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/event-update_totp.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/executeActions.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/identity-provider-link.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/org-invite.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/text/password-reset.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/email/theme.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kc.gen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/kc.gen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2psj47Y62JP74cI6PF620ko3VI8" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fb7393d-72bf-4aeb-a7fa-27acaaf38bd4" name="Changes" comment="" />
+      <created>1733561482927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733561482927</updated>
+      <workItem from="1733561485217" duration="346000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update.">
+      <option name="closed" value="true" />
+      <created>1733561564994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733561564994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update." />
+  </component>
 </project>
